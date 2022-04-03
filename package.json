@@ -23,6 +23,7 @@
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "jest": "27.2.3",
+    "ngx-deploy-npm": "^3.1.4",
     "nx": "13.9.5",
     "prettier": "^2.5.1",
     "ts-jest": "27.0.5",

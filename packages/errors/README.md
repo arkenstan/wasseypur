@@ -1,11 +1,51 @@
-# errors
+# @wasseypur/errors
 
-This library was generated with [Nx](https://nx.dev).
+Fun little NSFW error HTTP errors library which spouts wasseypur slangs as error messages.
 
-## Building
+> PLEASE DO NOT TRY THIS IN PRODUCTION ENVIRONMENTS
 
-Run `nx build errors` to build the library.
+## Installation
 
-## Running unit tests
+> npm install --save @wasseypur/errors
 
-Run `nx test errors` to execute the unit tests via [Jest](https://jestjs.io).
+---
+
+## Usage
+
+### In Typescript
+
+```Typescript
+import { BadRequest } from '@wasseypur/errors';
+
+// For Throwing Errors
+try{
+
+  /* Logic code */
+  throw new BadRequest();
+
+
+}catch(error){
+
+  // Catch and use error
+
+}
+```
+
+### In Nodejs
+
+```Javascript
+const { BadRequest } = require('@wasseypur/errors');
+
+// For Throwing Errors
+try{
+
+  /* Logic code */
+  throw new BadRequest();
+
+
+}catch(error){
+
+  // Catch and use error
+
+}
+```
