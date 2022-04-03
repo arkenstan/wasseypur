@@ -1,5 +1,10 @@
 {
   "name": "@wasseypur/errors",
-  "version": "0.0.1",
-  "type": "commonjs"
+  "version": "0.0.2",
+  "type": "commonjs",
+  "repository": {
+    "url": "https://github.com/arkenstan/wasseypur",
+    "directory": "packages/errors",
+    "type": "commonjs"
+  }
 }
